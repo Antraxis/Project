@@ -9,3 +9,4 @@ print(x,y)
 a=10
 a=a+2
 print(a)
+print('ini')
