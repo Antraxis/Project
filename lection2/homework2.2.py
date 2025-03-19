@@ -1,0 +1,6 @@
+num = int(input("number"))
+num1, num2 =divmod(num,10000)
+num_a, num_b =divmod(num2,100)
+num_c, num_d =divmod(num_a,10)
+num_e,  num_f =divmod(num_b,10)
+print(num_f,num_e,num_d,num_c,num1)
