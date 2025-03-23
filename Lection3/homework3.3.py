@@ -1,0 +1,10 @@
+#one=[1,2,3,4,5,6]
+#one=[1,2,3]
+one=[1,2,3,4,5]
+#one=[1]
+#one=[]
+two=len(one)//2
+one_a=(one[:two])
+one_b=(one[two:])
+one_c=[one_a]+[one_b]
+print(one_c)
