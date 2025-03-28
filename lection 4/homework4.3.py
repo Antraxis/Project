@@ -10,7 +10,6 @@ for two,u in enumerate(one):
         y=one.copy()
         x=y.pop(0)
         result.append(x)
-        continue
     elif two==2:
         y=one.copy()
         x=y.pop(2)
