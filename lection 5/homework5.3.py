@@ -1,5 +1,5 @@
 one = input("enter")
-one_x= one.replace(".","").replace(",","").replace("!","").replace("?","")
+one_x= one.replace(".","").replace(",","").replace("!","").replace("?","").replace("'","")
 separator=one_x.split()
 try_2=""
 for try_0 in separator:
